@@ -1,4 +1,3 @@
-
 <!DOCTYPE html><html lang="it">
   <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -33,7 +32,9 @@
     <meta property="og:image" content="https://sdgp.it/img/logoSocial_sdgp_commercialista_catania_200_200.jpg" >
     
     
-   
+    <link rel="preload" as="font" crossorigin href="fonts/fontawesome-webfont.woff2?v=4.7.0">
+ 
+    <!--   <link rel="preload" as="font" crossorigin href="fonts/fontawesome-webfont.ttf"> <link rel="alternate" href="https://sdgp.it/index.html" hreflang="it-it" />
 --> 
     
     <link rel='manifest' href='manifest.json'>
@@ -229,13 +230,12 @@ ga('send', 'pageview');
  ]
 }
  </script>
-	   <link rel="preconnect" href="//www.gstatic.com" crossorigin="" />
-    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin="" />
    
     
 <!--
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" data-title="sdgp feed">
-   
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin="" />
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin="" />
     <link rel="preconnect" href="//fonts.googleapis.com" crossorigin="" />
     <link rel="preconnect" href="//www.google-analytics.com" crossorigin="" />
     <link rel="preconnect" href="//firebaseremoteconfig.googleapis.com" crossorigin="" />
@@ -445,9 +445,10 @@ ga('send', 'pageview');
       <div class="w-masthead-home__center">
         <h1 class="w-headline--two w-font-weight--medium">
           Commercialista Online</h1>
-          <br><h3>
+          <br>
+          <h2>
               SDG&P
-          </h3>
+          </h2>
         <p>
           Consulenza aziendale, fiscale e tributaria Online
         </p>
@@ -664,7 +665,7 @@ contabilit&agrave;
         
       </div>
       <div class="w-masthead-about__right">
-        <img class="w-masthead-about__image" rel="sicuro" type="image/png" src="https://sdgp.it/img/new-sdgp-2020/commercialista-sicuro.png" alt="commercialista" />
+        <img class="w-masthead-about__image" width="380" height="380" rel="sicuro" type="image/png" src="https://sdgp.it/img/new-sdgp-2020/commercialista-sicuro.png" alt="commercialista" />
        <div class="w-layout-container w-text--center">
     
     
@@ -756,7 +757,7 @@ Il consulente a Voi dedicato si farà carico di studiare e monitorare costanteme
         
       </div>
         <div class="w-masthead-about__right">
-        <img class="w-masthead-about__image" src="https://sdgp.it/img/new-sdgp-2020/services.svg" alt="service" rel="service" type="image/svg">
+        <img class="w-masthead-about__image" width="380" height="380" src="https://sdgp.it/img/new-sdgp-2020/services.svg" alt="service" rel="service" type="image/svg">
             <div class="w-layout-container w-text--center">
     
     <a class="link-menu" data-category="sdgp" data-label="home, learn about" data-action="click" 
@@ -1156,7 +1157,7 @@ Catania, CT 95131</p>
 
   <div class="w-footer__utility">
     <nav class="w-footer__utility-nav">
-      <a href=" " class="w-footer__utility-logo-link"
+      <a href="https://commercialista1.com" class="w-footer__utility-logo-link"
         data-category="Site-Wide Custom Events" data-label="Footer Google Developers Link">
         <img loading="lazy" width="185" height="33" class="w-footer__utility-logo" src="https://sdgp.it/img/logo_sdgp_green.svg"
           alt="Commercialista online" />
@@ -1200,25 +1201,32 @@ Catania, CT 95131</p>
           </a>
         </li>
          <li class="w-footer__utility-item">
-          <a class="w-footer__utility-link" href="https://sdgp.it/commercialista/"
+          <a class="w-footer__utility-link" 
+                      margin= "8px"
+
+href="https://sdgp.it/commercialista/"
             data-category="Site-Wide Custom Events" data-label="Footer Blog Link">
             Blog
           </a>
-        </li>
-                <li>
+        </li> </ul>
+        <div>
+            
 
          <a 
             href="https://sdgp.it/menu.html"
-            class="web-header__link gc-analytics-event"
+            class="w-footer__utility-link"
+                      margin= "8px"
             data-category="Site-Wide Custom Events"
             data-label="Tab: Commercialista Online"
             onclick="#contact"
           >
             Menu
           </a>
-                  </li>
+                  
+        </div>
+               
 
-      </ul>
+     
     </nav>
     <nav class="w-footer__utility-nav">
       <ul class="w-footer__utility-list">
@@ -1249,7 +1257,4 @@ Catania, CT 95131</p>
   </body>
   <link rel="stylesheet" href="app.css">
    <link rel="stylesheet" href="css/font-awesome.min.css">
-	   <link crossorigin href="fonts/fontawesome-webfont.woff2?v=4.7.0">
- 
-    <!--   <link crossorigin href="fonts/fontawesome-webfont.ttf"> <link rel="alternate" href="https://sdgp.it/index.html" hreflang="it-it" />
 </html>
